@@ -2,7 +2,7 @@ const http = require("http");
 const fs = require("fs");
 const path = require("path");
 
-const root = __dirname;
+const root = path.resolve(__dirname, "..");
 const port = process.env.PORT || 3000;
 
 const mime = {
@@ -24,6 +24,7 @@ function send(res, status, file) {
       res.end("Server error");
       return;
     }
+
     res.writeHead(status, { "Content-Type": mime[path.extname(file)] || "application/octet-stream" });
     res.end(data);
   });

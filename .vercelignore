@@ -1,4 +1,4 @@
-server.js
+scripts/dev-server.js
 test-results/
 node_modules/
 *.log
