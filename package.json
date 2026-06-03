@@ -4,6 +4,7 @@
   "private": true,
   "description": "Premium multi-page Gandhinagar city discovery web app with public and admin routes.",
   "scripts": {
+    "build": "node -e \"console.log('Static app: no build step required')\"",
     "dev": "node server.js",
     "start": "node server.js"
   }
