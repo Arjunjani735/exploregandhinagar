@@ -1,0 +1,10 @@
+{
+  "name": "gandhinagar-city-guide",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Premium multi-page Gandhinagar city discovery web app with public and admin routes.",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  }
+}
